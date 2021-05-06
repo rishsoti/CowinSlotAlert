@@ -34,7 +34,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
   
 # Authentication
-s.login("no.reply.alert0@gmail.com", "noreplyuser")
+s.login("no.reply.alert@gmail.com", "yourpassword")
   
 # message to be sent
 message = """From:  <from@fromdomain.com>
@@ -50,7 +50,7 @@ Subject: Alert!! Vaccine Slot Avilable
 """ +html
 time.sleep(2.4)
 # sending the mail
-s.sendmail("no.reply.alert0@gmail.com", "rishabhsoti16@gmail.com", message)
+s.sendmail("no.reply.alert@gmail.com", "receiver_mail_id", message)
 time.sleep(2.4)
 # terminating the session
 s.quit()
