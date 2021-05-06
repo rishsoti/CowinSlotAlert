@@ -1,0 +1,6 @@
+District Code list can be retreived by running below lines of code in main file
+
+state_id = 'provide the state id for which you want to search'
+cowin = CoWinAPI()
+districts = cowin.get_districts(state_id)
+print(districts)
