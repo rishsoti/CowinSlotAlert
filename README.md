@@ -21,11 +21,11 @@ Mentioned in requirments.txt
 5- Enjoy!!!
 
 
-##Notes:
+## Notes:
 
 Please try not to spam the CoWin servers and try to keep a timeout between subsequent requests as sometime it  may times return a 401 Unauthorized response if you are not polling at a fixed interval
 
-##Contributions
+## Contributions
 
 Contributions are always welcome!
 
