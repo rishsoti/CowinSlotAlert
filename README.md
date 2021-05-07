@@ -12,7 +12,7 @@ Mentioned in requirments.txt
 
 1-Just go to  CowinScheduler.py update the state code for the state in which you want to search (you can get all state codes in StatesCodeList.txt file).
 
-2- Update mail id , password and receiver mail id as per your details
+2- Update date , mail id , password and receiver mail id as per your details
 
 3- Go on this link https://www.google.com/settings/security/lesssecureapps and provide the permission.
 
