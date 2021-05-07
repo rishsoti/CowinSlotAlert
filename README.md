@@ -37,7 +37,7 @@ available_centers = cowin.get_availability_by_pincode(pin_code, date, min_age_li
 
 2- You can also remove if condition of 18+ to get details for 45+ age group slots.
 
-3- Please try not to spam the CoWin servers and try to keep a timeout between subsequent requests as sometime it  may times return a 401 Unauthorized response if you are not polling at a fixed interval
+3- Please try not to spam the CoWin servers and try to keep a timeout between subsequent requests as sometime it  may  return a 401 Unauthorized response if you are not polling at a fixed interval gap
 
 ## Contributions
 
